@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="saudacao">
+            <h1>Cadastro de clientes!</h1>
+            <p>Preencha os campos para cadastrsar uma retirada!</p>
+        </div>
+        <form action="insert_cliente.php" method="post">
+            <label>Nome Completo</label>
+            <input type="text" class="inputs" name="nm_cliente" placeholder="Digite o nome do cliente">
+            <label>Endereço</label>
+            <input type="text" class="inputs" name="nm_endereco" placeholder="Digite o endereço do cliente">
+            <label>N° da Residência</label>
+            <input type="text" class="inputs" name="nr_endereco" placeholder="Digite o número da Residênciado do cliete">
+            <label>CPF</label>
+            <input type="text" class="inputs" name="cpf" placeholder="Digite o cpf do cliente">
+            <label>CNPJ</label>
+            <input type="text" class="inputs" name="cnpj" placeholder="Digite o cnpj do cliente">
+            <label>Telefone</label>
+            <input type="text" class="inputs" name="fone" placeholder="Digite o telefone do cliente">
+
+            <button type="submit">Enviar</button>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
