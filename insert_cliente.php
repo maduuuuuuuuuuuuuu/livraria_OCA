@@ -14,5 +14,3 @@ $query = mysqli_query($conexao, $insert);
 
 echo "Inserido com sucesso";
 ?>
-
-?>

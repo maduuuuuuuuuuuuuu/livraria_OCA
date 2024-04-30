@@ -43,7 +43,6 @@ CREATE TABLE `tb_cliente` (
 
 INSERT INTO `tb_cliente` (`id_cliente`, `nm_cliente`, `nm_endereco`, `nr_endereco`, `nr_cpf`, `nr_cnpj`, `nr_fone`) VALUES
 (1, 'Melissa dos Santos Portela', 'Rua Horácio Martins Domingues', 457, '12345678901', '', '13543768905'),
-(2, 'Melissa dos Santos Portela', 'Rua Horácio Martins Domingues', 457, '12345678901', '', '13543768905');
 
 --
 -- Índices para tabelas despejadas

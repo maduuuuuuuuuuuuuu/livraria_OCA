@@ -11,13 +11,13 @@
         <h1>Bem vindo de volta!</h1>
         <h1>LOGIN</h1>
         <div class="login ">
-            <form id="formulario">
+            <form method="post" action="logon.php" id="formulario">
                 <label for="">Email</label>
-                <input type="email" class="inputs" placeholder="Digite seu email">
+                <input type="email" class="inputs" name="login" placeholder="Digite seu email">
                 <label for="">Senha</label>
-                <input type="password" class="inputs" placeholder="Digite sua senha">
+                <input type="password" class="inputs" name="senha" placeholder="Digite sua senha">
                
-                <button><a href="tela_principal.html">Logar</a></button>
+                <button type="submit">Logar</button>
                 <a href="cadastro.html">Ainda não tem uma conta?</a>
             </form>
         </div>
